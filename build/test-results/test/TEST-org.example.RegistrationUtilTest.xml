@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.RegistrationUtilTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-12-08T12:34:08" hostname="DESKTOP-S3A44L9" time="0.027">
+  <properties/>
+  <testcase name="si_tout_est_vide()" classname="org.example.RegistrationUtilTest" time="0.022"/>
+  <testcase name="si_tout_est_bien_remplis()" classname="org.example.RegistrationUtilTest" time="0.001"/>
+  <testcase name="si_le_nom_user_est_vide()" classname="org.example.RegistrationUtilTest" time="0.001"/>
+  <testcase name="test_mot_de_passe_different()" classname="org.example.RegistrationUtilTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
