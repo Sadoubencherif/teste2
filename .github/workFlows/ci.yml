@@ -1,0 +1,13 @@
+name: CI
+on:
+push:
+  branch : [main]
+  jobs :
+    runs-on : unbuntu-latest
+    steps :
+      -uses : actions/checkout@v2
+      with:
+        java-version : 11
+        distribution: 'adopt'
+        -name: Build with Gradle
+        run: ./gradle build --scan
